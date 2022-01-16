@@ -3,8 +3,8 @@ language: en
 
 # main menu navigation
 menu:
-  About Me: /about
-  # 标签: /tags
+  About: /about
+  # 标签: /tag
 
 # cdn
 cdn:
@@ -33,9 +33,8 @@ scripts:
 
 # SNS
 social:
-  envelope-o: yinhongwei96@126.com
-  github: https://github.com/Yin-Hongwei
-  weibo: https://weibo.com/u/6746100432?topnav=1&wvr=6&topsug=1
+  envelope-o: 'mailto:yqhyzy@gmail.com'
+  github: https://github.com/gotohx
 
 # Site
 avatar: /img/avatar.jpg
@@ -43,26 +42,29 @@ avatar_icon: /img/favicon.ico
 
 # sidebar
 sidebar:
-  catalog: 大纲
-  display: index # all/index/post/index-none/post-none/hidden
-
+  catalog: 
+  # display: index # all/index/post/index-none/post-none/hidden
+  display: hidden # all/index/post/index-none/post-none/hidden
+  
 toc:
-  enable: true
+  enable: false
 
-footer:
-  startTime: 2018
+footer: 那些我将要去的地方，都是我从未谋面的故乡。
 
-# reward:
-#   enable: false
-#   alipay: /img/weixin.jpg
+author: gotohx
 
-# gitalk 
-# gitalk:
-#   enable: false
-#   id: ''
-#   owner: ''
-#   admin: ''
-#   repo: ''
-#   client_id: ''
-#   client_secret: ''
+description: "此心安处，便是吾乡"
+
+reward:
+  enable: false
+  alipay: /img/weixin.jpg
+
+gitalk:
+  enable: false
+  id: ''
+  owner: ''
+  admin: ''
+  repo: ''
+  client_id: ''
+  client_secret: ''
 

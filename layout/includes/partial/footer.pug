@@ -1,4 +1,6 @@
-- var msg = theme.footer.startTime + '-' + new Date().getFullYear() + ' ' + theme.author
+//- - var msg = theme.footer.startTime + '-' + new Date().getFullYear() + ' ' + theme.author
+- var msg = theme.footer
 footer#footer-outer
   #footer-inner
-    p.footer-text!= 'Copyright &copy; ' + msg
+    //- p.footer-text!= 'Copyright &copy; ' + msg
+    p.footer-text!= msg
